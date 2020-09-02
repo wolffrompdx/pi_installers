@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # install_openhab2.sh
-# Last edited: 11/20/2019
+# Last edited: 09/02/2020
 
 # Get key for OpenHAB repo
 wget -qO - 'https://bintray.com/user/downloadSubjectPublicKey?username=openhab' | sudo apt-key add -
@@ -14,8 +14,5 @@ echo 'deb https://dl.bintray.com/openhab/apt-repo2 stable main' | sudo tee /etc/
 
 # Update repos and install OpenHAB, addons packages
 sudo apt-get update && sudo apt-get install openhab2 openhab2-addons
-
-# Install Zulu 8
-#
 
 # End of file
