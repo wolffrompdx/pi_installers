@@ -11,7 +11,7 @@ wget https://github.com/Motion-Project/motion/releases/download/release-4.2.2/pi
 dpkg -i pi_buster_motion_4.2.2-1_armhf.deb
 
 # Install additional dependencies
-apt-get install python-pip python-dev libssl-dev libcurl4-openssl-dev libjpeg-dev libz-dev
+apt-get install python-pip python-dev libssl-dev libcurl4-openssl-dev libjpeg-dev libz-dev python-pil
 
 # Install motioneye via pip (Python package manager)
 pip install motioneye
